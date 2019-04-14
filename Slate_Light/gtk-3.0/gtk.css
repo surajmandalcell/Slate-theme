@@ -11316,6 +11316,21 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:only-child {
 
   border-radius: 5px;}*/
 
+
+/* Dconf Fixes */
+
+.dconf-editor .key-name,
+.dconf-editor .managed.folder,
+.dconf-editor .horizontal.pathbar,
+.dconf-editor .search.managed.small,
+.dconf-editor .managed.small.return,
+.dconf-editor .dim-label.key-summary,
+.dconf-editor .managed.edited.gsettings-key,
+.dconf-editor .managed.gsettings-key.conflict,
+.dconf-editor label.key-value{
+	color: #111;
+}
+
 /* Elementary os fixes */
 
 .panel .maximized {
