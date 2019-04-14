@@ -1049,7 +1049,7 @@ button:active{
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
+  background-image: linear-gradient(to botto,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
   
 button:active:hover,
 button:checked:hover{
@@ -1064,7 +1064,7 @@ button:checked:hover{
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #3b74f3 2px, #3b74f3,#306aea);}
+  background-image: linear-gradient(to botton,#4d6593 1px,#508eff 1px,#508eff 2px, #3b74f3 2px, #3b74f3,#306aea);}
   
   
 button:disabled {
@@ -1506,7 +1506,7 @@ button.suggested-action {
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
+  background-image: linear-gradient(to bottom,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
   
 .primary-toolbar button.suggested-action.flat,
 button.suggested-action.flat{
@@ -1545,7 +1545,7 @@ button.suggested-action:active{
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #3b74f3 2px, #3b74f3,#306aea);}
+  background-image: linear-gradient(to botton,#4d6593 1px,#508eff 1px,#508eff 2px, #3b74f3 2px, #3b74f3,#306aea);}
   
 .primary-toolbar button.suggested-action:checked,
 button.suggested-action:checked {
@@ -1560,7 +1560,7 @@ button.suggested-action:checked {
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #3b74f3 2px, #3b74f3,#306aea);}
+  background-image: linear-gradient(to bottom,#4d6593 1px,#508eff 1px,#508eff 2px, #3b74f3 2px, #3b74f3,#306aea);}
 
 .primary-toolbar button.suggested-action.flat:disabled,
 button.suggested-action.flat:disabled{
@@ -1620,8 +1620,7 @@ button.destructive-action {
 				  0px  1px alpha(#202020, 0.3),
 				  0px  2px alpha(#202020, 0.05);
   background-color: #F04A50;
-  background-image: linear-gradient(to bottom, #F04A50,
-                                               #F04A50);
+  background-image: linear-gradient(to bottom, #F04A50,#F04A50);
   border-color: rgba(0,0,0,0.6); }
   
   
@@ -1636,8 +1635,7 @@ button.destructive-action:hover {
 				  0px  1px alpha(#202020, 0.3),
 				  0px  2px alpha(#202020, 0.05);
   background-color: #f3313a;
-  background-image: linear-gradient(to bottom, #f3313a,
-                                               #f3313a);
+  background-image: linear-gradient(to bottom, #f3313a,#f3313a);
   border-color: rgba(0,0,0,0.6); }
   
 .primary-toolbar button.destructive-action:active,
@@ -1651,8 +1649,7 @@ button.destructive-action:active{
 				  0px  1px alpha(#202020, 0.3),
 				  0px  2px alpha(#202020, 0.05);
   background-color: #f3313a;
-  background-image: linear-gradient(to bottom, #f3313a,
-                                               #f3313a);
+  background-image: linear-gradient(to bottom, #f3313a,#f3313a);
   border-color: rgba(0,0,0,0.6); }
   
 .primary-toolbar button.destructive-action:checked,
@@ -1666,8 +1663,7 @@ button.destructive-action:checked {
 				  0px  1px alpha(#202020, 0.3),
 				  0px  2px alpha(#202020, 0.05);
   background-color: #f3313a;
-  background-image: linear-gradient(to bottom, #f3313a,
-                                               #f3313a);
+  background-image: linear-gradient(to bottom, #f3313a,#f3313a);
   border-color: rgba(0,0,0,0.6); }
 
 .primary-toolbar button.destructive-action:disabled,
@@ -1676,8 +1672,7 @@ button.destructive-action:disabled {
   color: rgba(92, 97, 108, 0.55);
   background-clip: border-box;
   background-color: #e3bebf;
-  background-image: linear-gradient(to bottom,#e3bebf,
-                                               #e3bebf);
+  background-image: linear-gradient(to bottom,#e3bebf,#e3bebf);
   border-color: rgba(0,0,0,0.55); }
   
 .primary-toolbar button.destructive-action.flat,
@@ -4582,7 +4577,7 @@ headerbar button.suggested-action {
  
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
+  background-image: linear-gradient(to bottom,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
   
 headerbar button.suggested-action.sidebar-button,
 headerbar button.suggested-action.flat{
@@ -4606,7 +4601,7 @@ headerbar button.suggested-action:hover {
  
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #3b74f3 2px, #3b74f3,#306aea);}
+  background-image: linear-gradient(to bottom,#4d6593 1px,#508eff 1px,#508eff 2px, #3b74f3 2px, #3b74f3,#306aea);}
   
 
 headerbar button.suggested-action.flat:disabled{
@@ -7728,7 +7723,7 @@ messagedialog.csd .dialog-action-area button:active{
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
+  background-image: linear-gradient(to bottom,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
   
 messagedialog.csd .dialog-action-area button:focus,  
 messagedialog.csd .dialog-action-area button:not(.suggested-action):not(.destructive-action):hover {
@@ -7744,7 +7739,7 @@ messagedialog.csd .dialog-action-area button:not(.suggested-action):not(.destruc
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
+  background-image: linear-gradient(to bottom,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
 
 messagedialog.csd .dialog-action-area button:not(.suggested-action):not(.destructive-action):active,
 messagedialog.csd .dialog-action-area button:not(.suggested-action):not(.destructive-action):checked {
@@ -7760,7 +7755,7 @@ messagedialog.csd .dialog-action-area button:not(.suggested-action):not(.destruc
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
+  background-image: linear-gradient(to bottom,#4d6593 1px,#508eff 1px,#508eff 2px, #2e69eb 2px, #2e69eb,#285fd5);}
 
 messagedialog.csd .dialog-action-area button:last-child {
 
