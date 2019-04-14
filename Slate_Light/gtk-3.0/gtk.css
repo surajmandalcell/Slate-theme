@@ -1,5 +1,6 @@
-/*(((((((((((((((  COLOR DEFINITION ))))))))))))))))))))*/                        
+@include chrome.css
 
+/*(((((((((((((((  COLOR DEFINITION ))))))))))))))))))))*/                        
 
 @define-color theme_fg_color #202020;
 @define-color theme_text_color #202020;
