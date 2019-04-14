@@ -2258,7 +2258,7 @@ toolbar.bottom-toolbar button{
   border-bottom-right-radius:0px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  border-style: solid;}}
+  border-style: solid;}
 
 .primary-toolbar .linked:not(.vertical):not(path-bar) > button:only-child {
 
@@ -4657,7 +4657,7 @@ headerbar button.destructive-action {
 				 -1px  0px alpha(#202020, 0.05),
 				  1px  0px alpha(#202020, 0.05),
 				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05)
+				  0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image: linear-gradient(to bottom, #F04A50,#e53a42);
   border-color: #e53a42; }
@@ -4686,7 +4686,7 @@ headerbar button.destructive-action:hover {
 				 -1px  0px alpha(#202020, 0.05),
 				  1px  0px alpha(#202020, 0.05),
 				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05)
+				  0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image: linear-gradient(to bottom, #F04A50,#e53a42);
   border-color: #e53a42; }
@@ -7806,7 +7806,7 @@ messagedialog.csd .dialog-action-area button:disabled{
   border-style: none;
   background-color: #3b3b3b; }
 
-..sidebar:dir(ltr){
+.sidebar:dir(ltr){
 
   border-right: 1px solid #505050;
   border-left-style: none; }
