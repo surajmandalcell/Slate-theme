@@ -1,0 +1,13 @@
+/* Normal case */
+/* .entry {
+    color: #ffffff;
+    background-color: #000000;
+} */
+
+/* Chromium-specific case */
+/* * .entry.chromium{
+    color: #ff0000;
+    background-color: #00ff00;
+} */
+
+/* leave for later */
