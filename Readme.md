@@ -6,7 +6,7 @@ This is is progress and for now it is much the same as the original theme by PAU
 
 
 
-----
+___
 
 This is a gnome-theme that contains a modified GTKRC and GTK.CSS. As such it licence is GPLv2, of which the downloaded file contains a copy.
 
