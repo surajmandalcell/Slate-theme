@@ -11644,7 +11644,13 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:only-child {
   
   border-radius: 5px;}*/
 
+
 /* Elementary os fixes */
+
+  /* fixes indicator spacing */
+.composited-indicator {
+  padding: 0 4px;
+}
 
 .panel .maximized {
   background-color: #000;
