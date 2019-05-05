@@ -1530,7 +1530,7 @@ button.suggested-action:hover {
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
-  background-image: linear-gradient(to bottom,#4d6593,#4d6593 1px,#508eff 1px,#508eff 2px, #3b74f3 2px, #3b74f3,#306aea);}
+  background-image: linear-gradient(to bottom,#4d6593 1px,#508eff 1px,#508eff 2px, #3b74f3 2px, #3b74f3,#306aea);}
 
 .primary-toolbar button.suggested-action:active,
 button.suggested-action:active{
