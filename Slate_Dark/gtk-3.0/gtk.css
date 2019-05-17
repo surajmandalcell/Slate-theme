@@ -11644,34 +11644,4 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:only-child {
   border-radius: 5px;}*/
 
 
-/* Elementary os fixes */
-
-  /* fixes indicator spacing */
-.composited-indicator {
-  padding: 0 4px;
-}
-
-.panel .maximized {
-  background-color: #000;
-}
-
-.panel.color-light .composited-indicator > revealer label,
-.panel.color-light .composited-indicator > revealer image,
-.panel.color-light .composited-indicator > GtkRevealer {
-color: alpha (#000, 0.65);
-text-shadow: 0 0 2px alpha (#fff, 0.3),
-             0 1px 0 alpha (#fff, 0.25);
-icon-shadow: 0 0 2px alpha (#fff, 0.3),
-             0 1px 0 alpha (#fff, 0.25);
-}
-
-.panel.color-light .composited-indicator .keyboard {
-background-color: alpha (#000, 0.65);
-box-shadow: 0 0 2px alpha (#fff, 0.3),
-            0 1px 0 alpha (#fff, 0.25);
-color: #fff;
-text-shadow: none;
-}
-
-
 @import url("elementary-dark.css");
