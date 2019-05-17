@@ -1,0 +1,21 @@
+/* elementary commons ++++++++++++++++++++*/
+
+/* Nautilus specific fix ++++ */
+.nautilus-window headerbar entry:focus,
+.nautilus-window headerbar entry {
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+headerbar entry:focus,
+headerbar entry {
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+/* io.elementary.files */
+
+window.background.csd treeview.view.sidebar.source-list{
+  background: #2c2b2c;
+  color: #acacac;
+}
